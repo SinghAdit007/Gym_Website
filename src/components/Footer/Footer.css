@@ -1,0 +1,33 @@
+.Footer-container{
+    position: relative;
+    padding-top: 8rem;
+}
+
+.Footer-container>hr{
+    border: 1px solid var(--lightgray);
+    
+}
+
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+}
+
+.social-links{
+    display: flex;
+    gap:4rem;
+}
+
+.social-links>img{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.logo-f>img{
+    width: 12rem;
+}

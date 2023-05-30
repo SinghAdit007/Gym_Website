@@ -1,0 +1,45 @@
+ .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .logo{
+    width : 13rem;
+    height:  4rem;
+    padding-inline-end: 2rem;
+    padding-bottom:5%;
+ }
+ 
+ .header-menu{
+    margin-left:58%;
+    margin-top: -5%;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color:white ;
+    align-items: center;
+  
+   
+} 
+.header-menu>li:hover{
+    cursor:pointer;
+    color:var(--orange);
+    cursor:pointer;
+}
+
+@media  screen and (max-width: 768px) {
+   .header>:nth-child(2){
+      position: fixed;
+      right: 2rem;
+      z-index: 99;
+   }
+
+   .header-menu{
+      flex-direction: column;
+      background-color: var(--appColor);
+      padding: 4rem;
+      
+   }
+   
+}
