@@ -69,8 +69,14 @@ const Hero = () => {
 
          {/*hero buttons */}
          <div className="hero-buttons">
-            <button className="btn">Get Started</button>
-            <button className="btn">Learn More</button>
+            <button onClick={(e) => {
+                            e.preventDefault();
+                              window.location.href='https://trainingprogramsnew.blogspot.com/2023/07/blog-post.html';
+                                }}className="btn">Get Started</button>
+            <button onClick={(e) => {
+                            e.preventDefault();
+                              window.location.href='https://trainingprogramsnew.blogspot.com/2023/07/blog-post.html';
+                                }}className="btn">Learn More</button>
          </div>
      </div>
      <div className="right-h">

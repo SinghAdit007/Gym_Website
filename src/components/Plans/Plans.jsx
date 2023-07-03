@@ -31,7 +31,10 @@ const Plans = () => {
                     </div>
                     <div><span>See more benefits-></span>
                     </div>
-                    <button className="btn">Join now</button>
+                    <button onClick={(e) => {
+                            e.preventDefault();
+                              window.location.href='https://mail.google.com/mail/u/0/#inbox/FMfcgzGtvsTbKvdMPrCnKRjpMkflvrQg?compose=GTvVlcSMVxpGLNgxccwHvtdwbfKFPgfwkvdgJRWbMjnBQHTFnGfkpzPwWZFjvzmDcRTbLLZBFffTp';
+                                }} className="btn">Join now</button>
                 </div>
             ))}
 
