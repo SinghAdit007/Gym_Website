@@ -71,11 +71,11 @@ const Hero = () => {
          <div className="hero-buttons">
             <button onClick={(e) => {
                             e.preventDefault();
-                              window.location.href='https://trainingprogramsnew.blogspot.com/2023/07/blog-post.html';
+                              window.location.href='https://foodism2017.blogspot.com/2023/07/welcome-to-fit-club-where-we-are.html';
                                 }}className="btn">Get Started</button>
             <button onClick={(e) => {
                             e.preventDefault();
-                              window.location.href='https://trainingprogramsnew.blogspot.com/2023/07/blog-post.html';
+                              window.location.href='https://foodism2017.blogspot.com/2023/07/and-regulations-ensure-safe-and.html';
                                 }}className="btn">Learn More</button>
          </div>
      </div>

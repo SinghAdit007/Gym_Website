@@ -23,8 +23,8 @@ const Programs = () => {
                         <button type="button"
                           onClick={(e) => {
                             e.preventDefault();
-                              window.location.href='https://trainingprogramsnew.blogspot.com/2023/07/blog-post.html';
-                                }}>Join Now</button>
+                              window.location.href='https://thefitc1ub.blogspot.com/2023/07/blog-post.html';
+                                }}>Details</button>
                        </span>
                       <img src={RightArrow} alt="" /></div>
                 </div>
