@@ -33,7 +33,7 @@ const Plans = () => {
                     </div>
                     <button onClick={(e) => {
                             e.preventDefault();
-                              window.location.href='https://mail.google.com/mail/u/0/#inbox/FMfcgzGtvsTbKvdMPrCnKRjpMkflvrQg?compose=GTvVlcSMVxpGLNgxccwHvtdwbfKFPgfwkvdgJRWbMjnBQHTFnGfkpzPwWZFjvzmDcRTbLLZBFffTp';
+                              window.location.href='https://mail.google.com/mail/u/0/#inbox/FMfcgzGtvsVkMcfXZNqFpPVWdBqBvDnC?compose=CllgCJNvvcdZTXQsdLPDCZGvdrpdWXCbNMbxlwVllQZLzdBfXNqHJTxwGkRdBssdrFwgvMfXxQq';
                                 }} className="btn">Join now</button>
                 </div>
             ))}
